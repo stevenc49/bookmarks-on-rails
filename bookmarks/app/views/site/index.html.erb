@@ -1,0 +1,11 @@
+
+  <h2>Latest Bookmarks</h2>
+  <table style="width: 100%">
+    <tbody>
+      <% @bookmarks.each do |bookmark| %>
+        <tr>
+          <td><%= link_to bookmark.title, bookmark.url %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
