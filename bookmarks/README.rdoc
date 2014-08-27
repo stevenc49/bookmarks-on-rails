@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A "Hello World" app to the world of Ruby on Rails!
 
-Things you may want to cover:
+Manage your bookmarks by:
 
-* Ruby version
+* using <tt>rails server</tt> and manage your bookmarks with the REST interface!
 
-* System dependencies
+* using <tt>rails console</tt> and add bookmarks by <tt>Bookmark.create(title:"title", url:"http://www.url.com")</tt>
 
-* Configuration
+-- NICE TO ADD ON LATER
 
-* Database creation
+* Unit and Integration Tests
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* User Authentication
