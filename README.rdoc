@@ -1,0 +1,15 @@
+== README
+
+A "Hello World" app to the world of Ruby on Rails!
+
+Manage your bookmarks by:
+
+* using <tt>rails server</tt> and manage your bookmarks with the REST interface!
+
+* using <tt>rails console</tt> and add bookmarks by <tt>Bookmark.create(title:"title", url:"http://www.url.com")</tt>
+
+=== NICE TO ADD ON LATER
+
+* Unit and Integration Tests
+
+* User Authentication
